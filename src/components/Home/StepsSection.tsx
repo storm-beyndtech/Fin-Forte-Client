@@ -32,8 +32,8 @@ const StepsSection = () => {
 		{
 			number: "04",
 			icon: <TrendingUp className="w-6 h-6" strokeWidth={2} />,
-			title: "Invest",
-			description: "Choose from our curated investment options and start building your portfolio.",
+			title: "Earn",
+			description: "Choose from our curated earning options and start building your portfolio.",
 		},
 		{
 			number: "05",

@@ -96,7 +96,7 @@ const Dashboard = () => {
 								{formatCurrency(totalBalance)}
 							</p>
 							<p className="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-400 font-medium">
-								Total Balance
+								Wallet Balance
 							</p>
 						</div>
 					</div>
@@ -114,7 +114,7 @@ const Dashboard = () => {
 								{formatCurrency(user.deposit || 0)}
 							</p>
 							<p className="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-400 font-medium">
-								Deposit Balance
+								Capital Balance
 							</p>
 						</div>
 					</div>
@@ -132,7 +132,7 @@ const Dashboard = () => {
 								{formatCurrency(user.interest || 0)}
 							</p>
 							<p className="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-400 font-medium">
-								Interest Balance
+								Profit Balance
 							</p>
 						</div>
 					</div>

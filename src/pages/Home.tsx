@@ -22,8 +22,8 @@ const Home: React.FC = () => {
 	return (
 		<div className="min-h-screen">
 			<Hero />
-			<TradingViewWidget />
 			<StepsSection />
+			<TradingViewWidget />
 			<InvestmentOverviewSection />
 			<MissionVision />
 			<UnifiedBusinessSections />

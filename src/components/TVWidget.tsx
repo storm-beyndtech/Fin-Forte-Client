@@ -20,7 +20,7 @@ interface TradingViewWidgetProps {
 
 const TradingViewWidget: React.FC<TradingViewWidgetProps> = ({
 	theme = "light",
-	height = 400,
+	height = 360,
 	maxWidth = "max-w-7xl",
 	className = "",
 }) => {

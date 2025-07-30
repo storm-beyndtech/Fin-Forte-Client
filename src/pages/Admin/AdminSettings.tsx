@@ -35,7 +35,6 @@ export default function AdminSettings() {
 
 		try {
 			setLoading(true);
-			console.log(coins);
 			const res = await fetch(`${url}/utils/update`, {
 				method: "PUT",
 				headers: { "Content-Type": "application/json" },

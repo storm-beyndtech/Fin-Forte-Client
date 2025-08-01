@@ -23,7 +23,6 @@ export default function PendingDeposits() {
     try {
       const res = await fetch(`${url}/transactions/deposits`);
       const data = await res.json();
-      console.log(data)
 
       if (res.ok) setDeposits(data.filter((dep:any) => dep.status === "pending"))
       else throw new Error(data.message);

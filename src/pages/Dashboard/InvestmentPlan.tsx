@@ -85,6 +85,7 @@ const InvestmentPlan: React.FC = () => {
 				body: JSON.stringify({
 					planId: selectedPlan._id,
 					amount: amount,
+					interest: (parseFloat(investmentAmount) * selectedPlan.roi) / 100,
 					userId: user._id,
 				}),
 			});
@@ -140,7 +141,8 @@ const InvestmentPlan: React.FC = () => {
 											<Shield className="w-6 h-6 text-slate-700 dark:text-slate-300" />
 										</div>
 										<h3 className="text-xl font-medium text-slate-900 dark:text-white">{plan.name}</h3>
-									</div>
+                  </div>
+                  
 
 									{/* Price Display */}
 									<div className="mb-6">

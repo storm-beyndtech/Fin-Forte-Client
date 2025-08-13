@@ -48,7 +48,7 @@ const Hero: FC = () => {
 						transition={{ duration: 0.5, delay: 0.2 }}
 						className="text-white text-lg leading-relaxed mb-8"
 					>
-						At Bluesteel Pty Ltd, we are dedicated to revolutionizing the landscape of asset transformation
+						At Fin-Forte Ltd, we are dedicated to revolutionizing the landscape of asset transformation
 						through purpose-driven projects. Each initiative is a step toward unlocking potential, bridging
 						cutting-edge innovation with real-world application. Our project routes are strategically designed
 						to deliver scalable, sustainable, and measurable impact — aligning client objectives with
